@@ -1,0 +1,90 @@
+2025-12-07 15:07:36,534 INFO:=== Automation run started ===
+2025-12-07 15:07:36,539 INFO:New weeks to generate: ['2025-01-12', '2025-01-19', '2025-01-26', '2025-02-02', '2025-02-09', '2025-02-16', '2025-02-23', '2025-03-02', '2025-03-09', '2025-03-16', '2025-03-23', '2025-03-30', '2025-04-06', '2025-04-13', '2025-04-20', '2025-04-27', '2025-05-04', '2025-05-11', '2025-05-18', '2025-05-25', '2025-06-01', '2025-06-08', '2025-06-15', '2025-06-22', '2025-06-29', '2025-07-06', '2025-07-13', '2025-07-20', '2025-07-27', '2025-08-03', '2025-08-10', '2025-08-17', '2025-08-24', '2025-08-31', '2025-09-07', '2025-09-14', '2025-09-21', '2025-09-28', '2025-10-05', '2025-10-12', '2025-10-19', '2025-10-26', '2025-11-02', '2025-11-09', '2025-11-16', '2025-11-23', '2025-11-30', '2025-12-07', '2025-12-14', '2025-12-21', '2025-12-28']
+2025-12-07 15:07:36,621 INFO:Saved sales file with shape: (2550, 8)
+2025-12-07 15:07:36,622 INFO:Fetching FRED data for 2025-01-12 -> 2025-12-28
+2025-12-07 15:07:38,477 ERROR:Missing critical values: {'Week_Start_Date': 0, 'Product_ID': 0, 'Units_Sold': 0, 'Price': 0, 'Revenue': 0, 'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 15:07:38,497 INFO:No missing product-week rows.
+2025-12-07 15:07:38,520 INFO:No extreme anomalies detected.
+2025-12-07 15:07:38,521 ERROR:Economic indicators missing counts: {'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 15:07:38,535 INFO:Saved merged file: d:\folder_project\data\merged_sales_econ_weekly.csv
+2025-12-07 15:07:38,535 INFO:SMTP settings incomplete; skipping email alert.
+2025-12-07 15:07:38,535 INFO:=== Automation run finished ===
+2025-12-07 15:10:40,858 INFO:=== Automation run started ===
+2025-12-07 15:51:10,407 INFO:=== Automation run started ===
+2025-12-07 15:51:10,435 INFO:New weeks to generate (completed weeks only): ['2025-01-05', '2025-01-12', '2025-01-19', '2025-01-26', '2025-02-02', '2025-02-09', '2025-02-16', '2025-02-23', '2025-03-02', '2025-03-09', '2025-03-16', '2025-03-23', '2025-03-30', '2025-04-06', '2025-04-13', '2025-04-20', '2025-04-27', '2025-05-04', '2025-05-11', '2025-05-18', '2025-05-25', '2025-06-01', '2025-06-08', '2025-06-15', '2025-06-22', '2025-06-29', '2025-07-06', '2025-07-13', '2025-07-20', '2025-07-27', '2025-08-03', '2025-08-10', '2025-08-17', '2025-08-24', '2025-08-31', '2025-09-07', '2025-09-14', '2025-09-21', '2025-09-28', '2025-10-05', '2025-10-12', '2025-10-19', '2025-10-26', '2025-11-02', '2025-11-09', '2025-11-16', '2025-11-23', '2025-11-30']
+2025-12-07 15:51:10,561 INFO:Saved sales file with shape: (5000, 8)
+2025-12-07 15:51:10,562 INFO:Fetching FRED data for 2024-01-07 -> 2025-11-30
+2025-12-07 15:51:12,278 ERROR:Missing critical values: {'Week_Start_Date': 0, 'Product_ID': 0, 'Units_Sold': 0, 'Price': 0, 'Revenue': 0, 'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 15:51:12,281 INFO:No missing product-week rows.
+2025-12-07 15:51:12,291 INFO:No extreme anomalies detected.
+2025-12-07 15:51:12,291 ERROR:Economic indicators missing counts: {'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 15:51:12,311 INFO:Saved merged file: d:\folder_project\data\merged_sales_econ_weekly.csv
+2025-12-07 15:51:12,311 INFO:=== Automation run finished ===
+2025-12-07 16:06:12,262 INFO:=== Automation run started ===
+2025-12-07 16:06:12,274 INFO:New weeks to generate (completed weeks only): []
+2025-12-07 16:06:12,290 INFO:Saved sales file with shape: (5000, 8)
+2025-12-07 16:06:12,290 INFO:Fetching FRED data for 2024-01-07 -> 2025-11-30
+2025-12-07 16:06:14,194 ERROR:Missing critical values: {'Week_Start_Date': 0, 'Product_ID': 0, 'Units_Sold': 0, 'Price': 0, 'Revenue': 0, 'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:06:14,198 INFO:No missing product-week rows.
+2025-12-07 16:06:14,209 INFO:No extreme anomalies detected.
+2025-12-07 16:06:14,209 ERROR:Economic indicators missing counts: {'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:06:14,228 INFO:Saved merged file: d:\folder_project\data\merged_sales_econ_weekly.csv
+2025-12-07 16:06:14,228 WARNING:Alerts found during data checks. Sending email (if configured).
+2025-12-07 16:06:16,689 ERROR:Failed to send email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-bf6a2d19492sm9137910a12.31 - gsmtp')
+Traceback (most recent call last):
+  File "d:\folder_project\automate.py", line 217, in send_email_alert
+    server.login(SMTP_USER, SMTP_PASS)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-bf6a2d19492sm9137910a12.31 - gsmtp')
+2025-12-07 16:06:16,707 INFO:=== Automation run finished ===
+2025-12-07 16:08:49,072 INFO:=== Automation run started ===
+2025-12-07 16:08:49,096 INFO:New weeks to generate (completed weeks only): []
+2025-12-07 16:08:49,112 INFO:Saved sales file with shape: (5000, 8)
+2025-12-07 16:08:49,112 INFO:Fetching FRED data for 2024-01-07 -> 2025-11-30
+2025-12-07 16:08:50,666 ERROR:Missing critical values: {'Week_Start_Date': 0, 'Product_ID': 0, 'Units_Sold': 0, 'Price': 0, 'Revenue': 0, 'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:08:50,671 INFO:No missing product-week rows.
+2025-12-07 16:08:50,680 INFO:No extreme anomalies detected.
+2025-12-07 16:08:50,680 ERROR:Economic indicators missing counts: {'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:08:50,700 INFO:Saved merged file: d:\folder_project\data\merged_sales_econ_weekly.csv
+2025-12-07 16:08:50,700 WARNING:Alerts found during data checks. Sending email (if configured).
+2025-12-07 16:08:53,160 ERROR:Failed to send email alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29dae49cbf0sm94126385ad.4 - gsmtp')
+Traceback (most recent call last):
+  File "d:\folder_project\automate.py", line 217, in send_email_alert
+    server.login(SMTP_USER, SMTP_PASS)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\mkman\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29dae49cbf0sm94126385ad.4 - gsmtp')
+2025-12-07 16:08:53,162 INFO:=== Automation run finished ===
+2025-12-07 16:14:56,439 INFO:=== Automation run started ===
+2025-12-07 16:14:56,450 INFO:New weeks to generate (completed weeks only): []
+2025-12-07 16:14:56,465 INFO:Saved sales file with shape: (5000, 8)
+2025-12-07 16:14:56,466 INFO:Fetching FRED data for 2024-01-07 -> 2025-11-30
+2025-12-07 16:14:57,995 ERROR:Missing critical values: {'Week_Start_Date': 0, 'Product_ID': 0, 'Units_Sold': 0, 'Price': 0, 'Revenue': 0, 'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:14:57,998 INFO:No missing product-week rows.
+2025-12-07 16:14:58,009 INFO:No extreme anomalies detected.
+2025-12-07 16:14:58,009 ERROR:Economic indicators missing counts: {'Avg_Gas_Price_US': 50, 'CPI': 0}
+2025-12-07 16:14:58,028 INFO:Saved merged file: d:\folder_project\data\merged_sales_econ_weekly.csv
+2025-12-07 16:14:58,028 WARNING:Alerts found during data checks. Sending email (if configured).
+2025-12-07 16:15:01,390 INFO:Email alert sent to dilpreetkaur21dk@gmail.com
+2025-12-07 16:15:01,391 INFO:=== Automation run finished ===
