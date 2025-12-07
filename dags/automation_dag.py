@@ -11,7 +11,7 @@ from airflow.operators.bash import BashOperator
 import os
 
 # ---------------------------------------------------------------------------
-# Project Paths (adjust if your Airflow environment uses another directory)
+# Project Paths (adjust if r Airflow environment uses another directory)
 # ---------------------------------------------------------------------------
 PROJECT_DIR = "/opt/airflow/folder_project"  
 # If running locally with Docker, map your project into this path
