@@ -26,22 +26,29 @@ An  **Airflow DAG** is also included for workflow scheduling.
 
 # 📁 **Repository Structure**
 
-```
 project_root/
 │
-├── automate.py                    # Main pipeline script
-├── monthly_sales_automation_dag.py  # Airflow DAG 
-├── api.env.example                  # Example env file 
+├── automate.py                     # Main automation pipeline script
+├── api.env                          # Environment variables (DO NOT commit secrets)
+├── .gitignore                       # Git ignore rules
+│
+├── dags/
+│   └── automation_dag.py            # Airflow DAG for scheduled monthly runs
 │
 ├── data/
-│   ├── synthetic_weekly_sales.csv    # Base 2024 dataset
-│   └── merged_sales_econ_weekly.csv  # MergedData(output)
+│   ├── synthetic_weekly_sales.csv    # Generated weekly sales dataset (2024 base)
+│   ├── merged_sales_econ_weekly.csv  # Sales + Economic indicators merged dataset
+│   ├── anomalies_units_sold.csv      # Detected anomalies (z-score based)
+│   └── Sales_data_Analysis/          # (Auto-created folder depending on your workflow)
 │
 ├── logs/
-│   └── automation.log
+│   └── automation.log                # Pipeline execution + error logs
 │
-└── README.md
-```
+├── notebooks/
+│   └── dataset.ipynb                 # Notebook used to create base synthetic dataset
+│
+└── README.md                         # Project documentation
+
 
 ---
 
