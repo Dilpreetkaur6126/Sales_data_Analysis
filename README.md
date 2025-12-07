@@ -29,7 +29,7 @@ An  **Airflow DAG** is also included for workflow scheduling.
 ```
 project_root/
 │
-├── automation.py                    # Main pipeline script
+├── automate.py                    # Main pipeline script
 ├── monthly_sales_automation_dag.py  # Airflow DAG 
 ├── api.env.example                  # Example env file 
 │
